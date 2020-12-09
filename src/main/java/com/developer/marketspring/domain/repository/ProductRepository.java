@@ -1,6 +1,6 @@
 package com.developer.marketspring.domain.repository;
 
-import com.developer.marketspring.domain.Product;
+import com.developer.marketspring.domain.Eschema.Product;
 
 import java.util.List;
 import java.util.Optional;

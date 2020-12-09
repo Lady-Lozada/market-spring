@@ -1,6 +1,6 @@
 package com.developer.marketspring.domain.service;
 
-import com.developer.marketspring.domain.Product;
+import com.developer.marketspring.domain.Eschema.Product;
 import com.developer.marketspring.domain.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

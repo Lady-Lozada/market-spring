@@ -1,6 +1,6 @@
 package com.developer.marketspring.persistence.mapper;
 
-import com.developer.marketspring.domain.Category;
+import com.developer.marketspring.domain.Eschema.Category;
 import com.developer.marketspring.persistence.entity.Categoria;
 import org.mapstruct.InheritInverseConfiguration;
 import org.mapstruct.Mapper;

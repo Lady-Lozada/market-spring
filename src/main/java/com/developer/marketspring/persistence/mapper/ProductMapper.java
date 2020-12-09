@@ -1,6 +1,6 @@
 package com.developer.marketspring.persistence.mapper;
 
-import com.developer.marketspring.domain.Product;
+import com.developer.marketspring.domain.Eschema.Product;
 import com.developer.marketspring.persistence.entity.Producto;
 import org.mapstruct.InheritInverseConfiguration;
 import org.mapstruct.Mapper;
@@ -14,7 +14,7 @@ public interface ProductMapper {
 
     /* Diseñamos los mappers (conversores) */
 
-    @Mappings({ // Convertimos una Producto en Product
+    @Mappings({ // Convertimos un Producto en Product
             @Mapping(source = "idProducto", target = "productId"),
             @Mapping(source = "nombre", target = "name"),
             @Mapping(source = "idCategoria", target = "categoryId"),
