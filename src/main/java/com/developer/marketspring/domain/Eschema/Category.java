@@ -1,4 +1,4 @@
-package com.developer.marketspring.domain;
+package com.developer.marketspring.domain.Eschema;
 
 public class Category {
 

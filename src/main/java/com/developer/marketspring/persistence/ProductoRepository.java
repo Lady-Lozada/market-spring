@@ -1,6 +1,6 @@
 package com.developer.marketspring.persistence;
 
-import com.developer.marketspring.domain.Product;
+import com.developer.marketspring.domain.Eschema.Product;
 import com.developer.marketspring.domain.repository.ProductRepository;
 import com.developer.marketspring.persistence.crud.ProductoCrudRepository;
 import com.developer.marketspring.persistence.entity.Producto;
